@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="false" sync-formatter="false">
+  <local-check-config name="Institute" location="/home/william/Desktop/420-PB4-AG-TP02/tools/7786174.canada.checkstyle.configuration.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <fileset name="Institute" enabled="true" check-config-name="Institute" local="true">
+    <file-match-pattern match-pattern=".java$" include-pattern="true"/>
+  </fileset>
+</fileset-config>
